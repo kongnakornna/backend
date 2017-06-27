@@ -1,0 +1,17 @@
+<?php
+			//**************Log activity
+			$action = 3;
+			$log_activity = array(
+				"admin_id" => $this->session->userdata('admin_id'),
+				"ref_id" => $id,
+				"from_ip" => $_SERVER['REMOTE_ADDR'],
+				"ref_type" => 0,
+				"ref_title" => "Admin team : ".$admin_team_title,
+				"action" => $action,
+				"create_date" => date('Y-m-d H:i:s'),
+				"status" => '1',
+				"lang" => $this->lang->line('lang')
+			);			
+			$this->Admin_log_activity_model->store($log_activity);
+			//**************Log activity
+?>
