@@ -21,10 +21,10 @@ $config['Template2'] = 'Template2';
 |
 */
 //$config['base_url'] = 'http://ci3hmvc';
-$config['base_url']='http://'.$_SERVER['HTTP_HOST'].'/V3/rest/';
-$config['restapi']='http://'.$_SERVER['HTTP_HOST'].'/V3/rest/';
-$config['api_url']	= 'http://'.$_SERVER['HTTP_HOST'].'/V3/rest/';
-$config['jsondir']	= 'http://'.$_SERVER['HTTP_HOST'].'/V3/rest/json/';
+$config['base_url']='http://'.$_SERVER['HTTP_HOST'].'/backend/rest/';
+$config['restapi']='http://'.$_SERVER['HTTP_HOST'].'/backend/rest/';
+$config['api_url']	= 'http://'.$_SERVER['HTTP_HOST'].'/backend/rest/';
+$config['jsondir']	= 'http://'.$_SERVER['HTTP_HOST'].'/backend/rest/json/';
 
 /*
 |--------------------------------------------------------------------------

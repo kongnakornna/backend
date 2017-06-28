@@ -72,26 +72,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-$host = '192.168.10.135';
+$host = 'localhost';
 $user = 'root';
 $pass = 'root';
-$database='trueplookpanya';
-/*
-$active_group = 'default';
-$query_builder = TRUE;
-$host = 'TPPYDB.ppm.in.th';
-$user = 'trueplookpanya';
-$pass = 'Gc1D6bD5A231LDM';
-$database='trueplookpanya';
-*/
-/*
-$active_group = 'default';
-$query_builder = TRUE;
-$host = '192.168.10.135';
-$user = 'root';
-$pass = 'root';
-$database='trueplookpanya';
-*/
+$database='dedemo';
 
 $db['default'] = array(
 	'dsn'	=> '',
